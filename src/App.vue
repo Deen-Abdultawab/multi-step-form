@@ -22,4 +22,13 @@ export default {
     min-height: 100vh;
     place-items: center;
   }
+
+     @media only screen and (max-width: 600px){
+
+        
+        .sec {
+            
+            height: 100vh;
+        }
+    }
 </style>
