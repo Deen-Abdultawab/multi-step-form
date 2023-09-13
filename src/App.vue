@@ -1,0 +1,25 @@
+<template>
+  <div class="sec">
+    <FormWindow />
+  </div>
+
+</template>
+
+<script>
+import FormWindow from './components/FormWindow.vue'
+
+export default {
+  components: { FormWindow }
+}
+
+</script>
+
+<style>
+  .sec {
+    width: 100%;
+    background: var(--Light-blue);
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+  }
+</style>
