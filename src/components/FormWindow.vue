@@ -1117,6 +1117,7 @@ import { computed, ref } from 'vue';
         
         .main-container {
             width: 100%;
+            height: 100%;
         }
     }
 
